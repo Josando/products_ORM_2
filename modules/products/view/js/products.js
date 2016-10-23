@@ -481,7 +481,7 @@ function validate_products(){
             result = false;
             return false;
         }
-/*
+
         if ($("#pais").val() == "" || $("#pais").val() == "Selecciona un Pais") {
             $("#pais").focus().after("<span class='error'> Enter Pais</span>");
             result = false;
@@ -499,7 +499,7 @@ function validate_products(){
             result = false;
             return false;
         }
-*/
+
         else if ($("#code").val() == "" || $("#code").val() == "Enter code") {
             $("#code").focus().after("<span class='error'>Enter code</span>");
              result = false;
